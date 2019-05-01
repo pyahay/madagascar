@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from setuptools import setup
+from setuptools import find_packages, setup
 
 # Package meta-data
 NAME = "madagascar"
 DESCRIPTION = "A package for geophysical data processing"
 URL = "https://github.com/pyahay/madagascar"
-AUTHOR = "Madagascar develop tem"
+AUTHOR = "Madagascar develop team"
 VERSION = "0.1.0"
 
 REQUIREMENTS = ["numpy"]
@@ -24,11 +24,11 @@ setup(
     url=URL,
     long_description=long_description,
     long_description_content_type="text/markdown",
-    packages=setuptools.find_packages(),
+    packages=find_packages(),
     install_requires=REQUIREMENTS,
     license='GPLv3',
     classifiers=[
-        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)'
+        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.6',
